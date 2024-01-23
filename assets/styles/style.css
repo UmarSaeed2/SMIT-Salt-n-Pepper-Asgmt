@@ -1,0 +1,259 @@
+/* color variable */
+
+:root{
+    --red:#f42625;
+    --white:#ffffff;
+    --black:#000000;
+    --green:#28A745;
+}
+
+/* navbar styling started */
+#navbar-items{
+    gap: 30px;
+}
+#navbar{
+    padding: 5px 100px;
+}
+
+.main-logo{
+    width: 165px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.transparent-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#order-online{
+    background-color: var(--red);
+    border: 0px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#red{
+    color: var(--red);
+}
+#btn-icon{
+    padding: 5px 7px; 
+}
+
+ /* nav styling ended */
+
+
+ carousal-images{
+    width: 100%;
+ }
+
+ /* welcome area styling started */
+
+ .wlc-area-container{
+    margin-top: 80px;
+ }
+
+ .main_custom_heading-second > h2{
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+ span.logo-text-hold{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 50px;
+     line-height: 32px;
+     color: var(--red);
+    }
+
+#wlc-images{
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.wlc-img{
+    height: 150px;
+    border-radius: 3px;
+}
+
+.wlc-img > img{
+    padding-top: 22px;
+}
+
+ /* welcome area styling ended */
+
+ /* address area styling started */
+
+ .address-container{
+    margin-top: 200px;
+    padding-bottom: 80px;
+ }
+
+ .address-heading{
+    padding-top: 60px;
+    height: 200px;
+ }
+
+ .address-heading > h2{
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+ }
+
+.address-heading > h2 {
+    margin-top: 10px;
+}
+
+.city-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--red);
+}
+.address-text-hold{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 22px;
+}
+.cities-child > h3{
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+/* address area styling ended */
+
+/* express franchises area styling started */
+
+.express-franchises-heading > h2{
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.express-franchises-heading{
+    margin-top: 20px;
+}
+
+.express-franchises-card{
+    width: 300px;
+    height: 500px;
+}
+
+/* express franchises area styling ended *
+
+/* village Franchise area styling started */
+
+.village-franchise-container{
+    padding: 20px 0px 50px 0px;
+}
+
+.green-btn{
+    background-color: var(--green);
+    border: 0px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+/* village Franchise area styling ended */
+
+/* upcoming express franchises area styling started */
+
+.upcoming-express-franchises-container{
+    margin: 40px 0px;
+}
+
+.location-card{
+    padding-top: 20px;
+    width: 350px;
+    height: 200px;
+}
+
+.location-card > h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.location-card-text-hold{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+/* upcoming express franchises area styling ended */
+
+/* social feed area styling started*/ 
+
+.social-feed-container{
+    margin: 80px 0px;
+
+}
+.social-feed-heading > h3{
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin: 30px 0px;
+}
+ .social-feed-img > img{
+    width: 250px;
+ }
+
+ /* social feed area styling ended */
+
+ /* footer area styling started */
+
+ .footer-container{
+    padding: 40px 0px 30px 0px;
+ }
+
+.conditions-links{
+    gap: 20px;
+}
+
+.conditions-links > a{
+    text-decoration: none;
+}
+
+.footer-child{
+    width: 350px;
+}
+
+.footer-links{
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.footer-child > h3{
+    font-weight: 300;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.footer-links{
+    list-style-type: none;
+}
+
+.footer-links > li > a{
+    text-decoration: none;
+}
+.credit-box > hr{
+    background-color: #ffffffb3;
+    opacity: 0.2;
+    width: 95vw;
+    margin: auto;
+}
+
+.credit-heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
